@@ -1,0 +1,3 @@
+git config --global credential.helper cache
+
+git config --glabal credential.helper 'cache --timeout=3600'
