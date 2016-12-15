@@ -39,8 +39,7 @@ if __name__ == '__main__':
     target = 0
     print(Solution().twoSum(nums, target))
 
-"""
-tips:
+"""tips:
 dict.get(key) return dict[key] if key in dict else return false.
 so if dict[key] is 0, "if dict.get(key)" return 0, false
 """

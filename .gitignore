@@ -74,3 +74,6 @@ celerybeat-schedule
 
 # Rope project settings
 .ropeproject
+
+# template
+000.template
