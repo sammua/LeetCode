@@ -37,7 +37,42 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        m = len(nums1)
+        n = len(nums2)
+        mid = (m + n) / 2
+        i, j = 0, 0
+        last, current = 0, 0
+        while(i + j <= mid):
+            last = current
+            if i == m:
+                current = nums2[j]
+                j += 1
+            elif j == n:
+                current = nums1[i]
+                i += 1
+            else:
+                if nums1[i] <= nums2[j]:
+                    current = nums1[i]
+                    i += 1
+                else:
+                    current = nums2[j]
+                    j += 1
+        # if (m + n) % 2 == 0:
+        #     return (last + current) / 2.0
+        # else:
+        #     return current / 1.0
+        return last, current
 
 
 if __name__ == '__main__':
-    pass
+    a = [1, 2]
+    b = [3, 4]
+    a = [1, 3]
+    b = [2]
+
+    print(Solution().findMedianSortedArrays(a, b))
+
+
+"""tips
+
+"""
