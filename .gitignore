@@ -76,4 +76,4 @@ celerybeat-schedule
 .ropeproject
 
 # template
-000.template
+# 000.template
