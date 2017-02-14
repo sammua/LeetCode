@@ -10,3 +10,5 @@
 | 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Algorithms/Python/median-of-two-sorted-arrays.py) | Hard |
 | 005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Algorithms/Python/005longest-palindromic-substring.py) | Medium |
 |  | []() | [Python](./Algorithms/Python/.py) |  |
+|  | []() | [Python](./Algorithms/Python/.py) |  |
+|  | []() | [Python](./Algorithms/Python/.py) |  |
