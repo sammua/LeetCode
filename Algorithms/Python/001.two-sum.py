@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-@Filename: 001.two_sum
-@Date    : 2016/12/10 19:21
-@Author  : bingo
-@Software: PyCharm
-"""
-
-"""
+author: mabin
+date  : 2016-12-10
+===================
+problem description
+===================
 Given an array of integers, return indices of the two numbers such that
 they add up to a specific target.
 You may assume that each input would have exactly one solution.
@@ -18,6 +16,7 @@ return [0, 1].
 """
 
 
+# solution 1
 class Solution(object):
     def twoSum(self, nums, target):
         """

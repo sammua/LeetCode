@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-@Filename: 003.longest_substring_without_repeating_characters
-@Date    : 2016/12/11 21:46
-@Author  : bingo
-@Software: PyCharm
-"""
-
-"""
+author: mabin
+date  : 2016-12-11
+===================
+problem description
 Given a string, find the length of the longest substring without repeating
 characters.
 
@@ -21,8 +18,8 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer
 must be a substring, "pwke" is a subsequence and not a substring.
 """
 
-# forword direction
 """
+# solution 1 (forword direction)
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         #:type s: str
@@ -50,6 +47,7 @@ class Solution(object):
 """
 
 
+# solution 2
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -77,3 +75,7 @@ if __name__ == '__main__':
     s = "abba"
     s = "bpfbhmipx"
     print(Solution().lengthOfLongestSubstring(s))
+
+"""tips
+
+"""

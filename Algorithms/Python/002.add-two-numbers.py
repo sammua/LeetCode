@@ -1,28 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-@Filename: 002.add_two_numberse
-@Date    : 2016/12/11 18:41
-@Author  : bingo
-@Software: PyCharm
-"""
-
-"""
-You are given two linked lists representing two non-negative numbers. The digits
- are stored in reverse order and each of their nodes contain a single digit.
+author: mabin
+date  : 2016-12-11
+===================
+problem description
+You are given two linked lists representing two non-negative numbers. The
+digits are stored in reverse order and each of their nodes contain
+a single digit.
  Add the two numbers and return it as a linked list.
 
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 """
 
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
 
-
+# solution 1
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
@@ -48,6 +41,13 @@ class Solution(object):
         return l3.next
 
 
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 if __name__ == '__main__':
     l1 = ListNode(2)
     l1.next = ListNode(4)
@@ -58,3 +58,7 @@ if __name__ == '__main__':
     l2.next.next = ListNode(4)
 
     print(Solution().addTwoNumbers(l1, l2))
+
+"""tips
+
+"""
