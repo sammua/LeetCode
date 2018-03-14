@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 author: mabin
-date  : 2016/12/10
+date  : 2018--
+===================
+[]() | Easy
 ===================
 problem description
 ===================
@@ -13,7 +15,8 @@ problem description
 
 # solution 1
 class Solution(object):
-    pass
+    def func():
+        pass
 
 
 if __name__ == '__main__':

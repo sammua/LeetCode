@@ -4,6 +4,8 @@
 author: mabin
 date  : 2016-12-10
 ===================
+[Two Sum](https://leetcode.com/problems/two-sum/) | Easy
+===================
 problem description
 ===================
 Given an array of integers, return indices of the two numbers such that

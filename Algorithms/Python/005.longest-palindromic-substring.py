@@ -4,6 +4,8 @@
 author: mabin
 date  : 2016-12-15
 ===================
+[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium
+===================
 problem description
 ===================
 Given a string s, find the longest palindromic substring in s.
