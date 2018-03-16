@@ -15,7 +15,7 @@ problem description
 
 # solution 1
 class Solution(object):
-    def func():
+    def func(self, ):
         pass
 
 

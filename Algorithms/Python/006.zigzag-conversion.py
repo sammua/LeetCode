@@ -4,7 +4,7 @@
 author: mabin
 date  : 2018-03-12
 ===================
-[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | Easy
+[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | Medium
 ===================
 problem description
 ===================
