@@ -65,7 +65,7 @@ class Pre(object):
                 temp = cls.get_readme_info(line)
                 if temp:
                     records[cls.get_num(temp[0])] = temp[1]
-    
+
     @classmethod
     def get_new_ones(cls, _records, _programs):
         """取 两个列表的 异或"""
@@ -116,7 +116,7 @@ class Update(object):
                     out = records_template.format(num, line, file_name)
                     out = out.replace("description/", "")
         return out
-    
+
     @staticmethod
     def write(_string):
         with open(readme_path, "a") as fw:

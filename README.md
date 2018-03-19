@@ -11,3 +11,4 @@ I'm back !
 | 005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Python](./Algorithms/Python/005.longest-palindromic-substring.py) |
 | 006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [Python](./Algorithms/Python/006.zigzag-conversion.py) |
 | 007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [Python](./Algorithms/Python/007.reverse-integer.py) |
+| 008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Python](./Algorithms/Python/008.string-to-integer-atoi.py) |

@@ -9,7 +9,6 @@ date  : 2018--
 problem description
 ===================
 
-
 """
 
 
@@ -21,7 +20,7 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    # print(Solution().)
+    print(Solution().func())
     pass
 
 
