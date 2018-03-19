@@ -4,7 +4,7 @@
 author: mabin
 date  : 2018-03-19
 ===================
-[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | Medium
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | Medium
 ===================
 problem description
 ===================

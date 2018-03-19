@@ -4,7 +4,7 @@
 author: mabin
 date  : 2016-12-14
 ===================
-[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard
+[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard
 ===================
 problem description
 ===================

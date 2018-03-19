@@ -4,7 +4,7 @@
 author: mabin
 date  : 2016-12-11
 ===================
-[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium
 ===================
 problem description
 ===================

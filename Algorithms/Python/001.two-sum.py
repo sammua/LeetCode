@@ -4,7 +4,7 @@
 author: mabin
 date  : 2016-12-10
 ===================
-[Two Sum](https://leetcode.com/problems/two-sum/) | Easy
+[1. Two Sum](https://leetcode.com/problems/two-sum/) | Easy
 ===================
 problem description
 ===================

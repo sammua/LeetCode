@@ -20,9 +20,11 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    print(Solution().func())
-    pass
-
+    tests = [
+    
+    ]
+    for t in tests:
+        print(t, Solution().func(t))
 
 """tips
 

@@ -4,7 +4,7 @@
 author: mabin
 date  : 2018-03-15
 ===================
-[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy
+[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy
 ===================
 problem description
 ===================
