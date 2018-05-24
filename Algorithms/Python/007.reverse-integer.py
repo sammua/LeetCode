@@ -23,13 +23,15 @@ Example 3:
 Input: 120
 Output: 21
 Note:
-Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+Assume we are dealing with an environment which could only hold integers within
+ the 32-bit signed integer range. For the purpose of this problem, assume that
+  your function returns 0 when the reversed integer overflows.
 
 """
 
 
-# solution 1
 class Solution(object):
+    # solution 1
     def reverse(self, x):
         out = int(str(abs(x))[::-1])
         if len(bin(out)) > 33:

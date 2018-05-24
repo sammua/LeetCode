@@ -21,12 +21,12 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer
 must be a substring, "pwke" is a subsequence and not a substring.
 """
 
-"""
-# solution 1 (forword direction)
+
 class Solution(object):
+    # solution 1
     def lengthOfLongestSubstring(self, s):
-        #:type s: str
-        #:rtype: int
+        # type s: str
+        # rtype: int
         target_start, current_start = 0, 0
         target_end = 1
         target_len, current_len = 1, 1
@@ -47,16 +47,11 @@ class Solution(object):
             target_start = current_start
             target_end = len(s)
         return [target_start, target_end, s[target_start:target_end]]
-"""
 
-
-# solution 2
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        """
-        #:type s: str
-        #:rtype: int
-        """
+    # solution 2
+    def lengthOfLongestSubstring2(self, s):
+        # type s: str
+        # rtype: int
         longest = 0
         current_str = ""
         for i, c in enumerate(s):
@@ -77,7 +72,7 @@ if __name__ == '__main__':
     s = "c"
     s = "abba"
     s = "bpfbhmipx"
-    print(Solution().lengthOfLongestSubstring(s))
+    print(Solution().lengthOfLongestSubstring2(s))
 
 """tips
 

@@ -18,8 +18,8 @@ Output: 7 -> 0 -> 8
 """
 
 
-# solution 1
 class Solution(object):
+    # solution 1
     def addTwoNumbers(self, l1, l2):
         """
         :type l1: ListNode

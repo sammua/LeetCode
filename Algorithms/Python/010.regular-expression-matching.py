@@ -30,8 +30,8 @@ isMatch("aab", "c*a*b") → true
 """
 
 
-# solution 1
 class Solution(object):
+    # solution 1
     def isMatch(self, s, p):
         if not p:
             return not s
@@ -44,14 +44,15 @@ class Solution(object):
         else:
             return first_match and self.isMatch(s[1:], p[1:])
 
+    # solution 2
     def isMatch2(self, s, p):
         """动态规划的方式是
         s[i:] p[j:] 是否 match
-        
+
         """
         # 自顶向下的方式, 从 s[0:],p[0:]到s[len(s):],p[len(p)]这个过程状态的存储
         memo = {}  # 存储中间状态
-    
+
         def dp(i, j):
             if (i, j) not in memo:  # 如果没有该状态
                 if j == len(p):  # 规定边界,p没有东西
@@ -62,10 +63,10 @@ class Solution(object):
                         ans = dp(i, j + 2) or first_match and dp(i + 1, j)
                     else:
                         ans = first_match and dp(i + 1, j + 1)
-            
+
                 memo[i, j] = ans
             return memo[i, j]
-    
+
         return dp(0, 0)
 
 if __name__ == '__main__':

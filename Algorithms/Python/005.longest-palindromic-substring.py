@@ -28,9 +28,8 @@ Output: "bb"
 """
 
 
-"""
-# solution 1 N*N
 class Solution(object):
+    # solution 1 N*N
     def longestPalindrome(self, s):
         length = len(s)
         longest_begin = 0
@@ -38,27 +37,24 @@ class Solution(object):
         table = [[False for i in range(length)] for i in range(length)]
         for i in range(length):
             table[i][i] = True
-        for i in range(length-1):
-            if s[i] == s[i+1]:
-                table[i][i+1] = True
+        for i in range(length - 1):
+            if s[i] == s[i + 1]:
+                table[i][i + 1] = True
                 longest_begin = i
                 max_len = 2
 
-        for le in range(3, length+1):
-            for i in range(length-le+1):
+        for le in range(3, length + 1):
+            for i in range(length - le + 1):
                 j = i + le - 1
-                if s[i] == s[j] and table[i+1][j-1]:
+                if s[i] == s[j] and table[i + 1][j - 1]:
                     table[i][j] = True
                     longest_begin = i
                     max_len = le
         # print(longest_begin, longest_begin + max_len - 1)
         return s[longest_begin:longest_begin + max_len]
-"""
 
-
-# solutino 2
-class Solution(object):
-    def longestPalindrome(self, s):
+    # solution 2
+    def longestPalindrome2(self, s):
         def expand_center(s, border_1, border_2):
             left = border_1
             right = border_2
@@ -76,7 +72,6 @@ class Solution(object):
             p1 = expand_center(s, i, i)
             if len(p1) >= len(longest):
                 longest = p1
-
             p2 = expand_center(s, i, i+1)
             if len(p2) >= len(longest):
                 longest = p2
@@ -89,7 +84,7 @@ if __name__ == '__main__':
     s = 'abaaba'
     # s = 'abcda'
     s = 'babad'
-    print(Solution().longestPalindrome(s))
+    print(Solution().longestPalindrome2(s))
 
 
 """tips

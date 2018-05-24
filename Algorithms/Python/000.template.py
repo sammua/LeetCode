@@ -12,8 +12,8 @@ problem description
 """
 
 
-# solution 1
 class Solution(object):
+    # solution 1
     def func(self, ):
         pass
 

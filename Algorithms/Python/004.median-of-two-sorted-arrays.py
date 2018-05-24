@@ -31,6 +31,7 @@ The median is (2 + 3)/2 = 2.5
 
 
 class Solution(object):
+    # solution 1
     def findMedianSortedArrays(self, nums1, nums2):
         """
         :type nums1: List[int]

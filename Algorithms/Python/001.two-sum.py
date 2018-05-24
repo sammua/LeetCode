@@ -18,8 +18,8 @@ return [0, 1].
 """
 
 
-# solution 1
 class Solution(object):
+    # solution 1
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
