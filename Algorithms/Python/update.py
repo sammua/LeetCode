@@ -28,9 +28,9 @@ class Pre(object):
     @classmethod
     def filter_files(cls, _list):
         """过滤文件名, 提取出 001~xxx 的程序文件名"""
-        digit_files = filter(lambda x: x.split(".")[0].isdigit(), _list)[1:]
-        digit_files.sort()
-        return digit_files
+        digit_files = filter(lambda x: x.split(".")[0].isdigit(), _list)
+        digit_files.sort()  # 把 000 给去掉
+        return digit_files[1:]
 
     @classmethod
     def get_num(cls, _string):
@@ -50,9 +50,11 @@ class Pre(object):
     @classmethod
     def check_program_files(cls, _list):
         """确保程序文件号码是连续的"""
+        print _list
         if int(_list[-1].split(".")[0]) == len(_list):
             for item in _list:
                 programs[cls.get_num(item)] = item
+                print item
             return True
         return False
 
@@ -86,6 +88,7 @@ class Update(object):
         filenames = os.listdir(".")
         # 获取题目文件名列表
         program_files = Pre.filter_files(filenames)
+        print program_files
         # 检查并更新 program_dict
         if Pre.check_program_files(program_files):
             print "[valid]program files are all right"

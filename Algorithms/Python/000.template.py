@@ -21,7 +21,6 @@ class Solution(object):
 if __name__ == '__main__':
 
     tests = [
-    
     ]
     for t in tests:
         print(t, Solution().func(t))
