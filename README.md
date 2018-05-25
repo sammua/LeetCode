@@ -16,3 +16,5 @@ I'm back !
 | 010 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Python](./Algorithms/Python/010.regular-expression-matching.py) |
 | 011 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Python](./Algorithms/Python/011.container-with-most-water.py) |
 | 012 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Python](./Algorithms/Python/012.integer-to-roman.py) |
+| 013 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](./Algorithms/Python/013.roman-to-integer.py) |
+| 014 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](./Algorithms/Python/014.longest-common-prefix.py) |
