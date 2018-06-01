@@ -18,3 +18,5 @@ I'm back !
 | 012 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Python](./Algorithms/Python/012.integer-to-roman.py) |
 | 013 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](./Algorithms/Python/013.roman-to-integer.py) |
 | 014 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](./Algorithms/Python/014.longest-common-prefix.py) |
+| 015 | [15. 3Sum](https://leetcode.com/problems/3sum/) | Medium | [Python](./Algorithms/Python/015.3sum.py) |
+| 016 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Python](./Algorithms/Python/016.3sum-closest.py) |
