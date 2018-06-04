@@ -50,11 +50,11 @@ class Pre(object):
     @classmethod
     def check_program_files(cls, _list):
         """确保程序文件号码是连续的"""
-        print _list
+        # print _list
         if int(_list[-1].split(".")[0]) == len(_list):
             for item in _list:
                 programs[cls.get_num(item)] = item
-                print item
+                # print item
             return True
         return False
 
@@ -88,7 +88,7 @@ class Update(object):
         filenames = os.listdir(".")
         # 获取题目文件名列表
         program_files = Pre.filter_files(filenames)
-        print program_files
+        # print program_files
         # 检查并更新 program_dict
         if Pre.check_program_files(program_files):
             print "[valid]program files are all right"
