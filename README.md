@@ -21,3 +21,5 @@ I'm back !
 | 015 | [15. 3Sum](https://leetcode.com/problems/3sum/) | Medium | [Python](./Algorithms/Python/015.3sum.py) |
 | 016 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Python](./Algorithms/Python/016.3sum-closest.py) |
 | 017 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [Python](./Algorithms/Python/017.letter-combinations-of-a-phone-number.py) |
+| 018 | [18. 4Sum](https://leetcode.com/problems/4sum/) | Medium | [Python](./Algorithms/Python/018.4sum.py) |
+| 019 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Python](./Algorithms/Python/019.remove-nth-node-from-end-of-list.py) |
