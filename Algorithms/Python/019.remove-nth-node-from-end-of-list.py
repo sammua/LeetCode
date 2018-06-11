@@ -100,6 +100,18 @@ class Solution(object):
 
         return remove(head)[1]
 
+    # solution 4
+    def removeNthFromEnd4(self, head, n):
+        def remove(node):
+            if not node:
+                return 0, node
+            index, node.next = remove(node.next)
+            next_node = node if n != index + 1 else node.next
+            return index + 1, next_node
+
+        ind, new_head = remove(head)
+        return new_head
+        
 
 if __name__ == '__main__':
     n5 = ListNode(5)
@@ -111,7 +123,7 @@ if __name__ == '__main__':
     n2.next = n3
     n3.next = n4
     n4.next = n5
-    result = Solution().removeNthFromEnd3(n1, 3)
+    result = Solution().removeNthFromEnd4(n1, 3)
     result.my_print()
 """
     tests = [
@@ -123,6 +135,7 @@ if __name__ == '__main__':
 """tips
 discuss:
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8802/3-short-Python-solutions
+https://blog.csdn.net/coder_orz/article/details/51691267
 
 solution 1
 需要增加一个头结点, 然后用两个指针, p1, p2, p1 先移动n个节点, 之后p1, p2一起
@@ -146,5 +159,8 @@ index: 4, [change]
 changed: 2 2 4 5
 index: 5, [change]
 changed: 1 1 2 4 5
+solution 3, 4
+删除倒数第n个节点
+
 
 """
