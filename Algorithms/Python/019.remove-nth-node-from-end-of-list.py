@@ -27,6 +27,8 @@ Could you do this in one pass?
 
 
 """
+
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
@@ -111,7 +113,7 @@ class Solution(object):
 
         ind, new_head = remove(head)
         return new_head
-        
+
 
 if __name__ == '__main__':
     n5 = ListNode(5)
@@ -161,6 +163,4 @@ index: 5, [change]
 changed: 1 1 2 4 5
 solution 3, 4
 删除倒数第n个节点
-
-
 """

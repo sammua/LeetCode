@@ -23,3 +23,5 @@ I'm back !
 | 017 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [Python](./Algorithms/Python/017.letter-combinations-of-a-phone-number.py) |
 | 018 | [18. 4Sum](https://leetcode.com/problems/4sum/) | Medium | [Python](./Algorithms/Python/018.4sum.py) |
 | 019 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Python](./Algorithms/Python/019.remove-nth-node-from-end-of-list.py) |
+| 020 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Python](./Algorithms/Python/020.valid-parentheses.py) |
+| 021 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Python](./Algorithms/Python/021.merge-two-sorted-lists.py) |
